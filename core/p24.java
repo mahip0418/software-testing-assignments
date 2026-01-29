@@ -1,0 +1,12 @@
+package com.core;
+
+public class p24 {
+	public static void main(String[] args) {
+        int[] a = {10, 20, 30, 40};
+
+        a[2] = 99;
+
+        for(int x : a)
+            System.out.print(x + " ");
+    }
+}
